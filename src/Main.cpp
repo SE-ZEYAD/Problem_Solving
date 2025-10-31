@@ -2,12 +2,11 @@
 #include "Main.h"
 
 int main() {
-    RomanToInteger romanConverter;
-    std::string romanNumeral = "MCMXCIV"; // Example Roman numeral
-    long integerValue = romanConverter.romanToInt(romanNumeral);
-    std::cout << "The integer value of the Roman numeral " << romanNumeral << " is " << integerValue << "\n";   
+    LongestCommonPrefix lcp;
+    std::vector<std::string> strs = {"flower", "flow", "flight"};
+    std::string prefix = lcp.longestCommonPrefix(strs);
+    std::cout << "Longest Common Prefix: " << prefix << "\n";
     
-
 
     std::cin.get();
     return 0;

@@ -10,6 +10,7 @@
         "${workspaceFolder}/LeetCode_Problems/Easy/TwoSum1.cpp",
         "${workspaceFolder}/LeetCode_Problems/Easy/PalindromeNumber2.cpp",
         "${workspaceFolder}/LeetCode_Problems/Easy/RomanToInteger3.cpp",
+        "${workspaceFolder}/LeetCode_Problems/Easy/LongestCommonPrefix4.cpp",
         "-I", "${workspaceFolder}/Headers",
         "-o", "${workspaceFolder}/build/Main.exe"
       ],
