@@ -8,6 +8,7 @@
       "args": [
         "${workspaceFolder}/src/Main.cpp",
         "${workspaceFolder}/LeetCode_Problems/Easy/TwoSum1.cpp",
+        "${workspaceFolder}/LeetCode_Problems/Easy/PalindromeNumber2.cpp",
         "-I", "${workspaceFolder}/Headers",
         "-o", "${workspaceFolder}/build/Main.exe"
       ],

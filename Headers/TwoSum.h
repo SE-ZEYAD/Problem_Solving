@@ -1,7 +1,7 @@
 #pragma once
 #include <vector>
 
-class Solution {
+class TwoSum {
 public:
     std::vector<int> twoSum(std::vector<int>& nums, int target);
 };
