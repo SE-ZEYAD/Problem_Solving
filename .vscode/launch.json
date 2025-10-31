@@ -2,14 +2,34 @@
   "version": "0.2.0",
   "configurations": [
     {
+      "name": "Run & Debug ProblemSolving",
+      "type": "cppdbg",
+      "request": "launch",
+      "program": "${workspaceFolder}/build/Main.exe",
+      "args": [],
+      "stopAtEntry": false,
+      "cwd": "${workspaceFolder}",
+      "preLaunchTask": "build ProblemSolving",
+      "externalConsole": true,
+      "MIMode": "gdb",
+      "miDebuggerPath": "gdb",
+      "setupCommands": [
+        {
+          "description": "Enable pretty-printing for gdb",
+          "text": "-enable-pretty-printing",
+          "ignoreFailures": true
+        }
+      ]
+    },
+    {
       "name": "C/C++ Runner: Debug Session",
       "type": "cppdbg",
       "request": "launch",
       "args": [],
       "stopAtEntry": false,
       "externalConsole": true,
-      "cwd": "e:/About-CP/LeetCode_Problems",
-      "program": "e:/About-CP/LeetCode_Problems/build/Debug/outDebug",
+      "cwd": "e:/About-CP/Problem_Solving/src",
+      "program": "e:/About-CP/Problem_Solving/src/build/Debug/outDebug",
       "MIMode": "gdb",
       "miDebuggerPath": "gdb",
       "setupCommands": [
